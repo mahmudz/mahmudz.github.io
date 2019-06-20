@@ -141,7 +141,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #344f65;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -158,7 +158,7 @@ a.dotted-link:hover {
 }
 
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #40617b;
 }
 
 .header .profile-content .social a .svg-inline--fa {
