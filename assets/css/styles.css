@@ -2,7 +2,7 @@ body {
     font-family: 'dm';
     color: #8892B0;
     background: #0A192F;
-    font-size: 16px;
+    font-size: 15px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -36,7 +36,7 @@ a:focus {
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     font-family: 'dm';
-    padding: 8px 16px;
+    padding: 8px 15px;
     font-weight: bold;
 }
 
@@ -311,7 +311,7 @@ a.dotted-link:hover {
 }
 
 .projects .item .title {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 5px;
     line-height: 1.5;
@@ -331,7 +331,7 @@ a.dotted-link:hover {
 }
 
 .experience .item .title {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 5px;
     color: #b9cee4 !important;
@@ -411,7 +411,7 @@ a.dotted-link:hover {
 }
 
 .skills .skillset .level-title {
-    font-size: 16px;
+    font-size: 15px;
     position: relative;
     margin-top: 0;
     margin-bottom: 10px;
@@ -455,7 +455,7 @@ a.dotted-link:hover {
 
 .testimonials .item .quote {
     color: #96a6b7;
-    font-size: 16px;
+    font-size: 15px;
     border-left: 5px solid #64ffda;
     padding: 5px 15px;
     margin-bottom: 15px;
@@ -495,7 +495,7 @@ a.dotted-link:hover {
 }
 
 .education .item .title {
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0;
 }
 
