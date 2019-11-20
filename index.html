@@ -440,12 +440,43 @@
             </div>
         </div>
     </footer>
+
+
     <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v5.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+  </script>
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="101952097946348"
+        theme_color="#172a45"
+        logged_in_greeting="Hi! How can we help you?"
+        logged_out_greeting="Hi! How can we help you?">
+    </div>
+
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134987722-1"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
